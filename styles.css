@@ -57,11 +57,11 @@ body {
 }
 
 .nav-links a:hover {
-    color: #2563eb;
+    color: black;
 }
 
 .cta-button {
-    background: #2563eb;
+    background: black;
     color: white !important;
     padding: 0.5rem 1.5rem;
     border-radius: 25px;
@@ -69,7 +69,7 @@ body {
 }
 
 .cta-button:hover {
-    background: #1d4ed8;
+    background: grey;
     transform: translateY(-2px);
 }
 
@@ -79,7 +79,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, black 0%, grey 100%);
     color: white;
     text-align: center;
     overflow: hidden;
@@ -125,7 +125,7 @@ body {
 
 .btn-primary {
     background: #ffffff;
-    color: #2563eb;
+    color: black;
 }
 
 .btn-primary:hover {
@@ -141,7 +141,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #2563eb;
+    color: grey;
     transform: translateY(-3px);
 }
 
@@ -208,13 +208,13 @@ h2 {
 .stat:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(37, 99, 235, 0.1);
-    border-color: #2563eb;
+    border-color: black;
 }
 
 .stat-number {
     font-size: 2rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    background:black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -252,7 +252,7 @@ h2 {
     padding: 1.5rem;
     background: #f8fafc;
     border-radius: 10px;
-    border-left: 4px solid #2563eb;
+    border-left: 4px solid black;
 }
 
 .mission h3, .approach h3, .expertise h3 {
@@ -301,7 +301,7 @@ h2 {
 .value-item:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
-    border-color: #2563eb;
+    border-color: black;
 }
 
 .value-icon {
@@ -346,7 +346,7 @@ h2 {
 .service-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
-    border-color: #2563eb;
+    border-color: black;
 }
 
 .service-icon {
@@ -394,16 +394,16 @@ h2 {
 .reference-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
-    border-color: #2563eb;
+    border-color: black;
 }
 
 .client-logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: white;
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
-    background: #dbeafe;
+    background: black;
     border-radius: 8px;
     display: inline-block;
 }
@@ -449,13 +449,13 @@ h2 {
 }
 
 .contact-item a {
-    color: #2563eb;
+    color: grey;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .contact-item a:hover {
-    color: #1d4ed8;
+    color: black;
 }
 
 .contact-form {
@@ -479,7 +479,7 @@ h2 {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #2563eb;
+    border-color: grey;
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 

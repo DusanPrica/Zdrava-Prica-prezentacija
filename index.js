@@ -1,4 +1,3 @@
-// Smooth scrolling for navigation links
 function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -9,7 +8,6 @@ function scrollToSection(sectionId) {
     }
 }
 
-// Navbar scroll effect
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
@@ -21,27 +19,21 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Form submission
 document.getElementById('contactForm')?.addEventListener('submit', function(e) {
     e.preventDefault();
     
-    // Get form data
     const formData = new FormData(this);
     const name = formData.get('name') || this.querySelector('input[type="text"]').value;
     const email = formData.get('email') || this.querySelector('input[type="email"]').value;
     const message = formData.get('message') || this.querySelector('textarea').value;
     
-    // Here you would typically send the data to a server
     console.log('Form submitted:', { name, email, message });
     
-    // Show success message
     alert('Hvala vam na poruci! Kontaktiraćemo vas uskoro.');
     this.reset();
 });
 
-// Add loading animation
 document.addEventListener('DOMContentLoaded', function() {
-    // Add fade-in animation to elements
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -56,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
 
-    // Observe all sections and cards
     document.querySelectorAll('section, .service-card, .reference-card').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
@@ -65,13 +56,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Add some interactive features
 function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
 
-// Add this to CSS for mobile menu
 const style = document.createElement('style');
 style.textContent = `
     @media (max-width: 768px) {
